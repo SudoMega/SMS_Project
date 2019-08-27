@@ -11,9 +11,6 @@ app.post('/message', function (req, res){
 	var msgFrom = req.body.From;
 	var msgBody = req.body.Body;
 
-	console.log(msgFrom);
-	console.log(msgBody);
-
 	res.send(`
 		</Response>
 			<Message>
