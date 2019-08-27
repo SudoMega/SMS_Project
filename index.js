@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+const PORT = process.env.PORT || 3000;
 
 var app = express();
 
@@ -22,4 +23,4 @@ app.post('/message', function (req, res){
 		`)
 })
 
-app.listen(3000);
+app.listen(PORT);
