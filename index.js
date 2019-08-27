@@ -12,7 +12,7 @@ app.post('/message', function (req, res){
 	var msgBody = req.body.Body;
 
 	res.send(`
-	 </Response>
+	 <Response>
 	  <Message>
 		Hello ${msgFrom}. You said: ${msgBody}
 	  </Message>
